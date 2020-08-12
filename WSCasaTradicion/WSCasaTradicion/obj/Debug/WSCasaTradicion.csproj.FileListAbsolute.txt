@@ -154,3 +154,5 @@ C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradici
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.csproj.CopyComplete
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.pdb
+C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Swashbuckle.Core.dll
+C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\WebActivatorEx.dll
