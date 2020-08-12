@@ -113,6 +113,7 @@ C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradici
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Microsoft.IdentityModel.Tokens.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Newtonsoft.Json.dll
+C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Swashbuckle.Core.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.Net.Http.Formatting.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.Web.Helpers.dll
@@ -123,6 +124,7 @@ C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradici
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.Web.Webpages.Deployment.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.Web.Webpages.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\System.Web.Webpages.Razor.dll
+C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\WebActivatorEx.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\EntityFramework.xml
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\EntityFramework.SqlServer.xml
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Microsoft.IdentityModel.JsonWebTokens.xml
@@ -149,10 +151,7 @@ C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradici
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\es\System.Net.Http.Formatting.resources.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\es\System.Web.Http.resources.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\es\System.Web.Http.WebHost.resources.dll
-C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.csprojAssemblyReference.cache
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.csproj.CoreCompileInputs.cache
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.csproj.CopyComplete
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.dll
 C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\obj\Debug\WSCasaTradicion.pdb
-C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\Swashbuckle.Core.dll
-C:\Users\adrflores\OneDrive - Clase Azul Spirits\Documentos\GitHub\WSCasaTradicion\WSCasaTradicion\WSCasaTradicion\bin\WebActivatorEx.dll
