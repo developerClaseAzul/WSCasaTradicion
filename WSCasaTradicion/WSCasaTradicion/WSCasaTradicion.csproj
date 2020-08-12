@@ -60,10 +60,15 @@
     <Reference Include="Microsoft.IdentityModel.Tokens, Version=6.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.IdentityModel.Tokens.6.7.1\lib\net45\Microsoft.IdentityModel.Tokens.dll</HintPath>
     </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.6.0\lib\net40\Swashbuckle.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System.IdentityModel.Tokens.Jwt, Version=6.7.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IdentityModel.Tokens.Jwt.6.7.1\lib\net45\System.IdentityModel.Tokens.Jwt.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -80,6 +85,9 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -121,11 +129,25 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Models\WSModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WSModel.edmx</DependentUpon>
+      <LastGenOutput>WSModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\WSModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>WSModel.edmx</DependentUpon>
+      <LastGenOutput>WSModel.cs</LastGenOutput>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\CasaTradicion\CasaTradicionAreaRegistration.cs" />
+    <Compile Include="Areas\CasaTradicion\Controllers\OHEMController.cs" />
+    <Compile Include="Areas\TradicionMazahua\TradicionMazahuaAreaRegistration.cs" />
     <Compile Include="Controllers\CustomerController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\TokenGenerator.cs" />
@@ -134,10 +156,37 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginRequest.cs" />
+    <Compile Include="Models\OHEM.cs">
+      <DependentUpon>WSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WSModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WSModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WSModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WSModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\WSModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WSModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="Areas\CasaTradicion\Views\web.config" />
+    <Content Include="Areas\TradicionMazahua\Views\web.config" />
+    <EntityDeploy Include="Models\WSModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>WSModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\WSModel.edmx.diagram">
+      <DependentUpon>WSModel.edmx</DependentUpon>
+    </Content>
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -148,6 +197,14 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\CasaTradicion\Data\" />
+    <Folder Include="Areas\CasaTradicion\Views\Shared\" />
+    <Folder Include="Areas\TradicionMazahua\Controllers\" />
+    <Folder Include="Areas\TradicionMazahua\Data\" />
+    <Folder Include="Areas\TradicionMazahua\Views\Shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
